@@ -1,14 +1,10 @@
 //
-//  CZHomeViewController.swift
-//  GZWeibo666
-//
-//  Created by Apple on 15/11/22.
-//  Copyright © 2015年 itcast. All rights reserved.
+//  YLHomeViewController.swift
 //
 
 import UIKit
 
-class CZHomeViewController: UITableViewController {
+class YLHomeViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

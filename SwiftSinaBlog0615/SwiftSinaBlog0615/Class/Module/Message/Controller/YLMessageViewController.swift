@@ -1,14 +1,10 @@
 //
-//  CZProfileViewController.swift
-//  GZWeibo666
-//
-//  Created by Apple on 15/11/22.
-//  Copyright © 2015年 itcast. All rights reserved.
+//  CZMessageViewController.swift
 //
 
 import UIKit
 
-class CZProfileViewController: UITableViewController {
+class YLMessageViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

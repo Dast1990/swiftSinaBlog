@@ -8,16 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C25DD6421D1068BC00469C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6411D1068BC00469C48 /* AppDelegate.swift */; };
-		C25DD6441D1068BC00469C48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6431D1068BC00469C48 /* ViewController.swift */; };
-		C25DD6471D1068BC00469C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25DD6451D1068BC00469C48 /* Main.storyboard */; };
 		C25DD6491D1068BC00469C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25DD6481D1068BC00469C48 /* Assets.xcassets */; };
 		C25DD64C1D1068BC00469C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25DD64A1D1068BC00469C48 /* LaunchScreen.storyboard */; };
 		C25DD6571D1068BC00469C48 /* SwiftSinaBlog0615Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6561D1068BC00469C48 /* SwiftSinaBlog0615Tests.swift */; };
 		C25DD6621D1068BC00469C48 /* SwiftSinaBlog0615UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6611D1068BC00469C48 /* SwiftSinaBlog0615UITests.swift */; };
-		C25DD68A1D1068DA00469C48 /* CZDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6761D1068DA00469C48 /* CZDiscoverViewController.swift */; };
-		C25DD68B1D1068DA00469C48 /* CZHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD67B1D1068DA00469C48 /* CZHomeViewController.swift */; };
-		C25DD68C1D1068DA00469C48 /* CZMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6811D1068DA00469C48 /* CZMessageViewController.swift */; };
-		C25DD68D1D1068DA00469C48 /* CZProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6861D1068DA00469C48 /* CZProfileViewController.swift */; };
+		C25DD68A1D1068DA00469C48 /* YLDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6761D1068DA00469C48 /* YLDiscoverViewController.swift */; };
+		C25DD68B1D1068DA00469C48 /* YLHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD67B1D1068DA00469C48 /* YLHomeViewController.swift */; };
+		C25DD68C1D1068DA00469C48 /* YLMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6811D1068DA00469C48 /* YLMessageViewController.swift */; };
+		C25DD68D1D1068DA00469C48 /* YLProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6861D1068DA00469C48 /* YLProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +38,6 @@
 /* Begin PBXFileReference section */
 		C25DD63E1D1068BC00469C48 /* SwiftSinaBlog0615.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSinaBlog0615.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25DD6411D1068BC00469C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C25DD6431D1068BC00469C48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C25DD6461D1068BC00469C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C25DD6481D1068BC00469C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C25DD64B1D1068BC00469C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C25DD64D1D1068BC00469C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,10 +47,10 @@
 		C25DD65D1D1068BC00469C48 /* SwiftSinaBlog0615UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSinaBlog0615UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25DD6611D1068BC00469C48 /* SwiftSinaBlog0615UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSinaBlog0615UITests.swift; sourceTree = "<group>"; };
 		C25DD6631D1068BC00469C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C25DD6761D1068DA00469C48 /* CZDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZDiscoverViewController.swift; sourceTree = "<group>"; };
-		C25DD67B1D1068DA00469C48 /* CZHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZHomeViewController.swift; sourceTree = "<group>"; };
-		C25DD6811D1068DA00469C48 /* CZMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZMessageViewController.swift; sourceTree = "<group>"; };
-		C25DD6861D1068DA00469C48 /* CZProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZProfileViewController.swift; sourceTree = "<group>"; };
+		C25DD6761D1068DA00469C48 /* YLDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLDiscoverViewController.swift; sourceTree = "<group>"; };
+		C25DD67B1D1068DA00469C48 /* YLHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLHomeViewController.swift; sourceTree = "<group>"; };
+		C25DD6811D1068DA00469C48 /* YLMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLMessageViewController.swift; sourceTree = "<group>"; };
+		C25DD6861D1068DA00469C48 /* YLProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +101,10 @@
 		C25DD6401D1068BC00469C48 /* SwiftSinaBlog0615 */ = {
 			isa = PBXGroup;
 			children = (
-				C25DD66F1D1068DA00469C48 /* Class */,
-				C25DD6411D1068BC00469C48 /* AppDelegate.swift */,
-				C25DD6431D1068BC00469C48 /* ViewController.swift */,
-				C25DD6451D1068BC00469C48 /* Main.storyboard */,
-				C25DD6481D1068BC00469C48 /* Assets.xcassets */,
 				C25DD64A1D1068BC00469C48 /* LaunchScreen.storyboard */,
+				C25DD6411D1068BC00469C48 /* AppDelegate.swift */,
+				C25DD66F1D1068DA00469C48 /* Class */,
+				C25DD6481D1068BC00469C48 /* Assets.xcassets */,
 				C25DD64D1D1068BC00469C48 /* Info.plist */,
 			);
 			path = SwiftSinaBlog0615;
@@ -170,9 +164,9 @@
 		C25DD6731D1068DA00469C48 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				C25DD67E1D1068DA00469C48 /* Main */,
 				C25DD6741D1068DA00469C48 /* Discover */,
 				C25DD6791D1068DA00469C48 /* Home */,
-				C25DD67E1D1068DA00469C48 /* Main */,
 				C25DD67F1D1068DA00469C48 /* Message */,
 				C25DD6841D1068DA00469C48 /* Profile */,
 			);
@@ -192,7 +186,7 @@
 		C25DD6751D1068DA00469C48 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C25DD6761D1068DA00469C48 /* CZDiscoverViewController.swift */,
+				C25DD6761D1068DA00469C48 /* YLDiscoverViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -224,7 +218,7 @@
 		C25DD67A1D1068DA00469C48 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C25DD67B1D1068DA00469C48 /* CZHomeViewController.swift */,
+				C25DD67B1D1068DA00469C48 /* YLHomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -263,7 +257,7 @@
 		C25DD6801D1068DA00469C48 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C25DD6811D1068DA00469C48 /* CZMessageViewController.swift */,
+				C25DD6811D1068DA00469C48 /* YLMessageViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -295,7 +289,7 @@
 		C25DD6851D1068DA00469C48 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C25DD6861D1068DA00469C48 /* CZProfileViewController.swift */,
+				C25DD6861D1068DA00469C48 /* YLProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -427,7 +421,6 @@
 			files = (
 				C25DD64C1D1068BC00469C48 /* LaunchScreen.storyboard in Resources */,
 				C25DD6491D1068BC00469C48 /* Assets.xcassets in Resources */,
-				C25DD6471D1068BC00469C48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,12 +445,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C25DD68A1D1068DA00469C48 /* CZDiscoverViewController.swift in Sources */,
-				C25DD6441D1068BC00469C48 /* ViewController.swift in Sources */,
-				C25DD68C1D1068DA00469C48 /* CZMessageViewController.swift in Sources */,
-				C25DD68B1D1068DA00469C48 /* CZHomeViewController.swift in Sources */,
+				C25DD68A1D1068DA00469C48 /* YLDiscoverViewController.swift in Sources */,
+				C25DD68C1D1068DA00469C48 /* YLMessageViewController.swift in Sources */,
+				C25DD68B1D1068DA00469C48 /* YLHomeViewController.swift in Sources */,
 				C25DD6421D1068BC00469C48 /* AppDelegate.swift in Sources */,
-				C25DD68D1D1068DA00469C48 /* CZProfileViewController.swift in Sources */,
+				C25DD68D1D1068DA00469C48 /* YLProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,14 +485,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C25DD6451D1068BC00469C48 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C25DD6461D1068BC00469C48 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C25DD64A1D1068BC00469C48 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -686,6 +670,7 @@
 				C25DD6681D1068BC00469C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C25DD6691D1068BC00469C48 /* Build configuration list for PBXNativeTarget "SwiftSinaBlog0615Tests" */ = {
 			isa = XCConfigurationList;
@@ -694,6 +679,7 @@
 				C25DD66B1D1068BC00469C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C25DD66C1D1068BC00469C48 /* Build configuration list for PBXNativeTarget "SwiftSinaBlog0615UITests" */ = {
 			isa = XCConfigurationList;
@@ -702,6 +688,7 @@
 				C25DD66E1D1068BC00469C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

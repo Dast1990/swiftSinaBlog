@@ -1,14 +1,10 @@
 //
-//  CZDiscoverViewController.swift
-//  GZWeibo666
-//
-//  Created by Apple on 15/11/22.
-//  Copyright © 2015年 itcast. All rights reserved.
+//  YLDiscoverViewController.swift
 //
 
 import UIKit
 
-class CZDiscoverViewController: UITableViewController {
+class YLDiscoverViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
