@@ -16,6 +16,7 @@
 		C25DD68B1D1068DA00469C48 /* YLHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD67B1D1068DA00469C48 /* YLHomeViewController.swift */; };
 		C25DD68C1D1068DA00469C48 /* YLMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6811D1068DA00469C48 /* YLMessageViewController.swift */; };
 		C25DD68D1D1068DA00469C48 /* YLProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6861D1068DA00469C48 /* YLProfileViewController.swift */; };
+		C25DD6921D11B41C00469C48 /* YLMainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6911D11B41C00469C48 /* YLMainTabBarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C25DD67B1D1068DA00469C48 /* YLHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLHomeViewController.swift; sourceTree = "<group>"; };
 		C25DD6811D1068DA00469C48 /* YLMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLMessageViewController.swift; sourceTree = "<group>"; };
 		C25DD6861D1068DA00469C48 /* YLProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLProfileViewController.swift; sourceTree = "<group>"; };
+		C25DD6911D11B41C00469C48 /* YLMainTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLMainTabBarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,9 @@
 		C25DD67E1D1068DA00469C48 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				C25DD68E1D11B3F200469C48 /* Controller */,
+				C25DD68F1D11B3F200469C48 /* Model */,
+				C25DD6901D11B3F200469C48 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -315,6 +320,28 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		C25DD68E1D11B3F200469C48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C25DD6911D11B41C00469C48 /* YLMainTabBarVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C25DD68F1D11B3F200469C48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C25DD6901D11B3F200469C48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -325,6 +352,7 @@
 				C25DD63A1D1068BC00469C48 /* Sources */,
 				C25DD63B1D1068BC00469C48 /* Frameworks */,
 				C25DD63C1D1068BC00469C48 /* Resources */,
+				C25DD6931D11B7CC00469C48 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -440,11 +468,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C25DD6931D11B7CC00469C48 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C25DD63A1D1068BC00469C48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C25DD6921D11B41C00469C48 /* YLMainTabBarVC.swift in Sources */,
 				C25DD68A1D1068DA00469C48 /* YLDiscoverViewController.swift in Sources */,
 				C25DD68C1D1068DA00469C48 /* YLMessageViewController.swift in Sources */,
 				C25DD68B1D1068DA00469C48 /* YLHomeViewController.swift in Sources */,

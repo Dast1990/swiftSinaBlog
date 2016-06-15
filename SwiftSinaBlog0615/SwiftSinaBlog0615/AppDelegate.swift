@@ -19,19 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.mainScreen().bounds )
         window?.backgroundColor = UIColor.yellowColor()
         
-        let tabbarC = UITabBarController()
+        let tabbarC = YLMainTabBarVC()
         
-        let homeVC = YLHomeViewController()
-        homeVC.title = "主页"
-        homeVC.tabBarItem.image = UIImage(named: "tabbar_home")
-        homeVC.tabBarItem.selectedImage = UIImage(named: "tabbar_home_highlighted")
-        tabbarC.addChildViewController(UINavigationController(rootViewController: homeVC))
-        
-        let msgVC = YLMessageViewController()
-        msgVC.title = "信息"
-        msgVC.tabBarItem.image = UIImage(named: "tabbar_message_center")
-        msgVC.tabBarItem.selectedImage = UIImage(named: "tabbar_message_center_highlighted")
-        tabbarC.addChildViewController(UINavigationController(rootViewController: msgVC))
+        //        msgVC.tabBarItem.image = UIImage(named: "tabbar_message_center")
+        //        msgVC.tabBarItem.selectedImage = UIImage(named: "tabbar_message_center_highlighted")
+        //        tabbarC.addChildViewController(UINavigationController(rootViewController: msgVC))
         
         
         
@@ -39,6 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         return true
     }
+    
     
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
