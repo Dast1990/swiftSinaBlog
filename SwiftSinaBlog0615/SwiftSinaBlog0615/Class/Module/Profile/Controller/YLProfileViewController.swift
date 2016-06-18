@@ -4,7 +4,7 @@
 
 import UIKit
 
-class YLProfileViewController: UITableViewController {
+class YLProfileViewController: YLBaseTableVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()

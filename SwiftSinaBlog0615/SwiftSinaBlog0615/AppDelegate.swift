@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         //不能再window为空时在后面加 ?;  ?作用是在左边对象为空时不执行右边的代码。
         window = UIWindow(frame: UIScreen.mainScreen().bounds )
-        window?.backgroundColor = UIColor.yellowColor()
+        window?.backgroundColor = UIColor.cyanColor()
         
         let tabbarC = YLMainTabBarVC()
         
@@ -29,6 +29,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window?.rootViewController = tabbarC
         window?.makeKeyAndVisible()
+        
+        //是访客视图标记
+        //TODO: swift中pch配置方法
+        NSUserDefaults.standardUserDefaults().setBool(false, forKey: "isLoginIn")
+        
         return true
     }
     

@@ -56,7 +56,7 @@ class YLMainTabBarVC: UITabBarController {
     //MARK: - lazy, 1.MARK必须时大写；2. - 前后必须有空格。
     lazy var centerBtn : UIButton = {
         let btn = UIButton()
-        let width = UIScreen.mainScreen().bounds.width / 5;
+        let width = self.tabBar.bounds.width / 5;
         
         //中间按钮宽度略宽，防点到下面中间系统tabbarItem。最好的方法还是自定义tabbar，那样图片和文字的位置随便设置！
         btn.frame = CGRectMake(width * 2 - 2, 0, width + 4, self.tabBar.bounds.height)

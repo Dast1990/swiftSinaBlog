@@ -17,6 +17,9 @@
 		C25DD68C1D1068DA00469C48 /* YLMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6811D1068DA00469C48 /* YLMessageViewController.swift */; };
 		C25DD68D1D1068DA00469C48 /* YLProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6861D1068DA00469C48 /* YLProfileViewController.swift */; };
 		C25DD6921D11B41C00469C48 /* YLMainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DD6911D11B41C00469C48 /* YLMainTabBarVC.swift */; };
+		C2D558C11D14ED0800DCB014 /* YLBaseTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D558C01D14ED0800DCB014 /* YLBaseTableVC.swift */; };
+		C2D558C31D15029A00DCB014 /* CommonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D558C21D15029A00DCB014 /* CommonData.swift */; };
+		C2D558C51D1505C200DCB014 /* YLVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D558C41D1505C200DCB014 /* YLVisitorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		C25DD6811D1068DA00469C48 /* YLMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLMessageViewController.swift; sourceTree = "<group>"; };
 		C25DD6861D1068DA00469C48 /* YLProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLProfileViewController.swift; sourceTree = "<group>"; };
 		C25DD6911D11B41C00469C48 /* YLMainTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLMainTabBarVC.swift; sourceTree = "<group>"; };
+		C2D558C01D14ED0800DCB014 /* YLBaseTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLBaseTableVC.swift; sourceTree = "<group>"; };
+		C2D558C21D15029A00DCB014 /* CommonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonData.swift; sourceTree = "<group>"; };
+		C2D558C41D1505C200DCB014 /* YLVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLVisitorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,9 +173,9 @@
 			isa = PBXGroup;
 			children = (
 				C25DD67E1D1068DA00469C48 /* Main */,
-				C25DD6741D1068DA00469C48 /* Discover */,
 				C25DD6791D1068DA00469C48 /* Home */,
 				C25DD67F1D1068DA00469C48 /* Message */,
+				C25DD6741D1068DA00469C48 /* Discover */,
 				C25DD6841D1068DA00469C48 /* Profile */,
 			);
 			path = Module;
@@ -316,6 +322,7 @@
 		C25DD6891D1068DA00469C48 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				C2D558C21D15029A00DCB014 /* CommonData.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -324,6 +331,7 @@
 			isa = PBXGroup;
 			children = (
 				C25DD6911D11B41C00469C48 /* YLMainTabBarVC.swift */,
+				C2D558C01D14ED0800DCB014 /* YLBaseTableVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -338,6 +346,7 @@
 		C25DD6901D11B3F200469C48 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C2D558C41D1505C200DCB014 /* YLVisitorView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -405,6 +414,7 @@
 		C25DD6361D1068BC00469C48 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YL;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = HT;
@@ -490,10 +500,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C25DD6921D11B41C00469C48 /* YLMainTabBarVC.swift in Sources */,
+				C2D558C51D1505C200DCB014 /* YLVisitorView.swift in Sources */,
 				C25DD68A1D1068DA00469C48 /* YLDiscoverViewController.swift in Sources */,
+				C2D558C11D14ED0800DCB014 /* YLBaseTableVC.swift in Sources */,
 				C25DD68C1D1068DA00469C48 /* YLMessageViewController.swift in Sources */,
 				C25DD68B1D1068DA00469C48 /* YLHomeViewController.swift in Sources */,
 				C25DD6421D1068BC00469C48 /* AppDelegate.swift in Sources */,
+				C2D558C31D15029A00DCB014 /* CommonData.swift in Sources */,
 				C25DD68D1D1068DA00469C48 /* YLProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -4,7 +4,7 @@
 
 import UIKit
 
-class YLMessageViewController: UITableViewController {
+class YLMessageViewController: YLBaseTableVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
