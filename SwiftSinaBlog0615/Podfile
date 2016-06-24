@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'SwiftSinaBlog0615' do
+
+pod 'SnapKit'
+
+end
+
+target 'SwiftSinaBlog0615Tests' do
+
+end
+
+target 'SwiftSinaBlog0615UITests' do
+
+end
+

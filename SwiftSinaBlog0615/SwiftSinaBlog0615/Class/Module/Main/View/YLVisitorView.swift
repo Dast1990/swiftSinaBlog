@@ -34,10 +34,6 @@ class YLVisitorView: UIView {
         addSubview(loginBtn)
         
         
-        iconV.translatesAutoresizingMaskIntoConstraints =  false;
-        
-        //        iconV.addConstraint(NSLayoutConstraint.constraintsWithVisualFormat(<#T##format: String##String#>, options: <#T##NSLayoutFormatOptions#>, metrics: <#T##[String : AnyObject]?#>, views: <#T##[String : AnyObject]#>))
-        //        iconV.addConstraint(NSLayoutConstraint(item: <#T##AnyObject#>, attribute: <#T##NSLayoutAttribute#>, relatedBy: <#T##NSLayoutRelation#>, toItem: <#T##AnyObject?#>, attribute: <#T##NSLayoutAttribute#>, multiplier: <#T##CGFloat#>, constant: <#T##CGFloat#>))
     }
     
     //MARK: - lazy
